@@ -1,0 +1,80 @@
+.notes {
+  background-color: #fff;
+  border-radius: 25px;
+  color: #ffc107;
+}
+
+.notesOther {
+  background-color: #fff;
+  border-radius: 25px;
+  color: #ffc107;
+}
+
+.navNotes {
+  background-color: #fff;
+  color: #ffc107 !important;
+}
+
+.body {
+  background-color: #ffc107 !important;
+  color: #fff !important;
+}
+
+.notesDark {
+  background-color: #BDB76B;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.notesOtherDark {
+  background-color: #BDB76B;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.btnNotes {
+  background-color: #fff;
+  border: 1px solid #ffc107;
+  color: #ffc107;
+}
+
+.btnNotesDark {
+  background-color: #fff;
+  color: #BDB76B;
+}
+
+.btnNotes:hover {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.btnNotesDark:hover {
+  background-color: #202124;
+  color: #BDB76B;
+}
+
+.navNotesDark {
+  background-color: #BDB76B;
+  color: #fff !important;
+}
+
+.bodyDark {
+  background-color: #202124 !important;
+  color: #fff !important;
+  font-family: "Roboto", arial, sans-serif !important;
+}
+
+.inputKeep {
+  border: none !important;
+  border-bottom: 1px solid #ffc107 !important;
+}
+
+.brand:hover {
+  color: #BDB76B !important;
+}
+
+.inputKeepDark {
+  border: none !important;
+  background-color: #BDB76B !important;
+  border-bottom: 1px solid #BDB76B !important;
+}
