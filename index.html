@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- favicon -->
-  <link rel="icon" type="image/x-icon" href="/keep.ico">
+  <link rel="icon" type="image/x-icon" href="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -19,13 +19,18 @@
   <nav class="navbar navbar-expand-lg navNotes w-100" id="nav">
     <div class="container">
       <a class="navbar-brand  h2 brand" href="/index.html">
-        <img src="/keep.png" alt="keep note" style="height: 32px" />
+        <img src="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png" alt="keep note"
+          style="height: 32px" />
         Keep
       </a>
       <div>
-        <img src="/lightmode.png" alt="lightmode" class="rounded-circle d-none" id="light" value="light"
-          onClick="mode('light')" />
-        <img src="/darkmode.png" alt="darkmode" class="rounded-circle" id="dark" value="dark" onClick=" mode('dark')" />
+        <!-- <img src="/lightmode.png" alt="lightmode" class="rounded-circle d-none" id="light" value="light"
+          onClick="mode('light')" /> -->
+        <small class="d-none" id="light" value="light" onClick="mode('light')">Disable
+          Dark Mode</small>
+        <small class="" id="dark" value="dark" onClick=" mode('dark')">Enable
+          Dark Mode</small>
+        <!-- <img src="/darkmode.png" alt="darkmode" class="rounded-circle" id="dark" value="dark" onClick=" mode('dark')" /> -->
       </div>
     </div>
     </div>
